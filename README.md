@@ -84,6 +84,84 @@ VM2718:1 Uncaught TypeError: window.alart is not a function
 (anonymous) @ VM2718:1
 window.alert(str);
 undefined
+var numA = 2;
+undefined
+var numB = 3;
+undefined
+var numC = numA + numB;
+undefined
+console.log(numC);
+VM2839:1 5
+undefined
+var numD = numA * numB;
+undefined
+console.log(numD);
+VM2906:1 6
+undefined
+var numA = 1;
+undefined
+var numB = 2;
+undefined
+var boolC = numA == numB;
+undefined
+console.log(boolC);
+VM3013:1 false
+undefined
+var boolD = numA < numB;
+undefined
+console.log(boolC);
+VM3083:1 false
+undefined
+var boolD = numA < numB;
+undefined
+console.log(boolD);
+VM3151:1 true
+undefined
+var numA = 1;
+undefined
+var numB = "1";
+undefined
+console.log(numA == numB);
+VM3258:1 true
+undefined
+console;log(numA === numB);
+VM3318:1 Uncaught ReferenceError: log is not defined
+    at <anonymous>:1:9
+(anonymous) @ VM3318:1
+console.log(numA === numB);
+VM3339:1 false
+undefined
+var strA = "我輩は";
+undefined
+var strB = "犬である";
+undefined
+var strC = strA + strB;
+undefined
+console.log(strC);
+VM3460:1 我輩は犬である
+undefined
+console.log(strA === strB);
+VM3533:1 false
+undefined
+var numA = 1;
+undefined
+if(numA === 1 ) { console.log("numAは１です");
+                }
+VM4507:1 numAは１です
+undefined
+if (numA === 2 ){
+    console.log("numAは２です");
+}
+undefined
+var numA = 3;
+undefined
+if (numA === 1){
+    console.log("numAは１です");
+}
+undefined
+else if (numA === 2 ){
+VM4787:1 Uncaught SyntaxError: Unexpected token else
+console.log("numAは２です);
 ```
 
 ## 例（下記の書き方をまねてください）
